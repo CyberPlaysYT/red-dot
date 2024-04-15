@@ -2,7 +2,7 @@ local Settings = {
     rewrittenmain = {
         Enabled = true, --// Leave This True
         Key = "q", --// Keybind To Lock
-        DOT = true, --// show the actual dot
+        DOT = false, --// show the actual dot
         AIRSHOT = true, --// airshot func idk why u would use
         NOTIF = true, --// show notifcations when ur locking
         AUTOPRED = true, --// changes prediction based on ping
@@ -105,9 +105,9 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Red Dotlock";
-                    Text = "Unlocked :)",
-                    Duration = 5
+                    Title = "clip.lol";
+                    Text = "Unlocked",
+                    Duration = 3
                 })
             end
             else
@@ -116,9 +116,9 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 if Settings.rewrittenmain.NOTIF == true then
  
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "Red Dotlock";
+                        Title = "clip.lol";
                         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
-                        Duration = 5
+                        Duration = 3
                     })
  
                 end
