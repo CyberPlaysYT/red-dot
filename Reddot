@@ -105,7 +105,7 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "clip.lol";
+                    Title = "lock.cc gui";
                     Text = "Unlocked",
                     Duration = 3
                 })
@@ -116,7 +116,7 @@ local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be O
                 if Settings.rewrittenmain.NOTIF == true then
  
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "clip.lol";
+                        Title = "lock.cc gui";
                         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 3
                     })
