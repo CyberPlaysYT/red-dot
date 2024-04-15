@@ -14,7 +14,7 @@ local Settings = {
  
 local SelectedPart = "HumanoidRootPart" --// LowerTorso, UpperTorso, Head
 local Prediction = true
-local PredictionValue = 0.1367901647392 --// Change Prediction,  AutoPrediction Must Be Off
+local PredictionValue = 0.1111 --// Change Prediction,  AutoPrediction Must Be Off
  
  
     local AnchorCount = 0
@@ -291,4 +291,5 @@ local PredictionValue = 0.1367901647392 --// Change Prediction,  AutoPrediction 
  
         else
                 SelectedPart = "HumanoidRootPart"
-        end)
+        end
+    end)
