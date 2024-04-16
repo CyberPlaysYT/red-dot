@@ -1,7 +1,7 @@
 local Settings = {
     rewrittenmain = {
         Enabled = true, --// Leave This True
-        Key = "q", --// Keybind To Lock
+        Key = "v", --// Keybind To Lock
         DOT = false, --// show the actual dot
         AIRSHOT = true, --// airshot func idk why u would use
         NOTIF = true, --// show notifcations when ur locking
